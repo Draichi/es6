@@ -23,7 +23,6 @@ class NegociacaoController{
         event.preventDefault();
      
         this._listaNegociacoes.adiciona(this._criaNegociacao());
-        this._negociacoesView.update(this._listaNegociacoes);
 
         this._mensagem.texto = 'Negociação adicionada com sucesso';
         this._mensagemView.update(this._mensagem);
